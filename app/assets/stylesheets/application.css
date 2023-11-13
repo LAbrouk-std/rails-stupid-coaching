@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
+
+ .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+ }
+.form_coach{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 15px;
+  background-color: #FFFEE1;
+}
+.ligne {
+  width: 10px;
+  height: 1px;
+  }
+h1 {
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: center;
+}
